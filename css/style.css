@@ -1,0 +1,62 @@
+/**
+ * CONTENTS
+ *
+ * SETTINGS
+ * Global...............Globally-available variables and config.
+ *
+ * TOOLS
+ * Mixins...............Useful mixins.
+ *
+ * GENERIC
+ * Normalize.css........A level playing field.
+ * Box-sizing...........Better default `box-sizing`.
+ *
+ * BASE
+ * Headings.............H1–H6 styles.
+ *
+ * OBJECTS
+ * Wrappers.............Wrapping and constraining elements.
+ *
+ * COMPONENTS
+ * Page-head............The main page header.
+ * Page-foot............The main page footer.
+ * Buttons..............Button elements.
+ *
+ * TRUMPS
+ * Text.................Text helpers.
+ */
+ 
+ /*
+ *	Global
+ */
+html {
+	font-family: sans-serif;
+}
+body {
+	background-color: #22272A;  /* Google color: 263238*/
+	color: #ced9e0;
+}
+a {
+	color: #E85146;
+}
+a:hover {
+	color: #B6232A;
+}
+/*
+*	Headings
+*/
+h1 {
+	color: #ffffff;
+}
+ /*
+ *	Page-head
+ */
+header {
+	border-bottom: solid #E85146 2px;
+}
+nav {
+	margin: 15px;
+} 
+nav a {
+	padding-right: 15px;
+}
